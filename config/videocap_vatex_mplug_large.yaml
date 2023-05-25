@@ -1,0 +1,29 @@
+# val_file: ['data/nocaps_val.json']
+test_file: ['data/creative/creative_new.json'] #
+ref_path: 'data/creative/creative_new.json'  #
+
+read_local_data: True
+vatex_video_caps_root: 'video_root/'  #
+bert_config: 'configs/config_bert.json'
+image_res: 448
+batch_size_train: 1
+vision_width: 1024
+distill: True
+clip_name: "ViT-L-14"
+batch_size_test: 1
+k_test: 128
+
+alpha: 0.4
+warm_up: True
+
+eos: '[SEP]'
+bos: '[CLS]'
+#prompt: 'a picture of'
+#prompt: 'a video showing'
+#prompt: 'a humorous video because of'
+prompt: 'a creative video because of'
+
+optimizer: {opt: adamW, lr1: 1e-5, lr2: 5e-6, weight_decay: 0.02}
+schedular: {sched: cosine, lr: 1e-5, epochs: 5, min_lr: 1e-6, decay_rate: 1, warmup_lr: 1e-5, warmup_epochs: 4, cooldown_epochs: 0}
+use_checkpoint: true
+num_frm_test: 8

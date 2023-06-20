@@ -1,9 +1,9 @@
 # FunQA: Towards Surprising Video Comprehension
 
-[Blog]() (coming soon) | [Paper]() (coming soon)
+[Project Page]() (coming soon) | [Paper]() (coming soon)
 
 [![Youtube](https://badges.aleen42.com/src/youtube.svg)]()
-[![Arxiv]()]()
+[![Arxiv](https://img.shields.io/badge/arXiv-Read-red)]()
 [![Bilibili](https://img.shields.io/badge/Bilibili-Watch-pink)]()
 [![HumorQA_Demo](https://img.shields.io/badge/HumorQA_Demo-Watch-green)]()
 [![CreativeQA_Demo](https://img.shields.io/badge/CreativeQA_Demo-Watch-blue)]()

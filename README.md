@@ -1,24 +1,23 @@
-# FunQA: Towards Surprising Video Comprehension
+# [FunQA: Towards Surprising Video Comprehension](https://funqa-benchmark.github.io/)
 
-[Project Page]() (coming soon) | [Paper]() (coming soon)
 
+[![paper](https://img.shields.io/badge/Paper-<COLOR>.svg)](https://arxiv.org/abs/2306.05424) 
 [![Youtube](https://badges.aleen42.com/src/youtube.svg)]()
-[![Arxiv](https://img.shields.io/badge/arXiv-Read-red)]()
 [![Bilibili](https://img.shields.io/badge/Bilibili-Watch-pink)]()
 [![HumorQA_Demo](https://img.shields.io/badge/HumorQA_Demo-Watch-green)]()
 [![CreativeQA_Demo](https://img.shields.io/badge/CreativeQA_Demo-Watch-blue)]()
 [![MagicQA_Demo](https://img.shields.io/badge/MagicQA_Demo-Watch-orange)]()
 
-
-![img.png](img/main.png)
-
-Welcome to FunQA's open source repository, FunQA is a Video Question Answering benchmark that aims
+Welcome to FunQA's open source Project Page, FunQA is a Video Question Answering benchmark that aims
 at enhancing video reasoning upon counter-intuitive videos, such as humorous
 videos, creative videos, and magic videos.
 
 This repository is still under maintenance and we will update the full FunQA dataset and our model in the future.
 
-
+<video controls>
+  <source src="[https://private-user-images.githubusercontent.com/91806420/247702306-949c3fe2-dd23-46bc-b214-21241f8c7619.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJrZXkxIiwiZXhwIjoxNjg3Mzc1MjM4LCJuYmYiOjE2ODczNzQ5MzgsInBhdGgiOiIvOTE4MDY0MjAvMjQ3NzAyMzA2LTk0OWMzZmUyLWRkMjMtNDZiYy1iMjE0LTIxMjQxZjhjNzYxOS5tcDQ_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMwNjIxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMDYyMVQxOTE1MzhaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03OTVlN2M3NzY2NGZkMTNhZWMzYWUxYjAyNjhkNjdlNWM2YWI0YWZmZWQ5OTNmNjdhODk5YThkZDkwMGVmOTM2JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.RLLLG0vdkc2cVV7PaSDPWcqXAY0FaBaTgCx-BXmFhQY]()" type="video/mp4">
+Your browser does not support the video tag.
+</video>
 
 ## Todo
 
@@ -38,6 +37,8 @@ This repository is still under maintenance and we will update the full FunQA dat
 - [License](#license)
 
 ## FunQA Benchmark
+
+![img.png](img/main.png)
 
 - FunQA is a pioneering **VideoQA benchmark** specially curated to hone video reasoning capabilities in the
   counter-intuitive context of **humorous**, **creative**, and **magic** videos.
@@ -67,7 +68,7 @@ You can create an anaconda environment for this project
 
 ```angular2html
 conda create -n funqa python==3.8
-conda activate videoqa
+conda activate videofunqa
 git clone https://github.com/Jingkang50/FunQA
 ```
 
@@ -84,11 +85,25 @@ For FunQA Dataset: there are four zip files:
 
 For FunQA Extension Dataset: Coming soon.
 
-## Results
 ## Acknowledgement
 
 This study is supported by the Ministry of Education, Singapore, under its MOE AcRF Tier 2 (MOE-T2EP20221- 0012), NTU
 NAP, and under the RIE2020 Industry Alignment Fund – Industry Collaboration Projects (IAF-ICP) Funding Initiative, as
 well as cash and in-kind contribution from the industry partner(s).
 
+If you're using FunQA in your research or applications, please cite using this BibTeX:
+```bibtex
+    @article{xie2023funqa,
+      title={FunQA: Towards Surprising Video Comprehension},
+      author={Xie, Binzhu and Zhang, Sicheng and Zhou, Zitang and Li, Bo and Zhang, Yuanhan and Hessel, Jack and Yang, Jingkang and Liu, Ziwei},
+      journal={GitHub repository},
+      year={2023},
+      howpublished = {\url{https://github.com/Jingkang50/FunQA}}
+  }
+```
+
 ## License
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+
+
+Looking forward to your feedback and please raise any issues or questions [here](https://github.com/Jingkang50/FunQA/issues). 

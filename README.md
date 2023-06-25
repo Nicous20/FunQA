@@ -12,8 +12,13 @@
 [![CreativeQA_Demo](https://img.shields.io/badge/CreativeQA_Demo-Watch-blue)]()
 [![MagicQA_Demo](https://img.shields.io/badge/MagicQA_Demo-Watch-orange)]()
 
-Welcome to FunQA's Codebase Repository! 
+Welcome to FunQA's Codebase Repository!
+The motivation for the FunQA is straightforward: Humans enjoy surprising videos, including funny clips, creative performances, or visual illusions. We hope to test or emdow the similar power for AI models.
+
 FunQA is a VideoQA dataset to evaluate and enhance the model's video reasoning capability upon counter-intuitive videos, including humorous and funny viral videos from [TikTok](), creative performance from [Kasou Taishou (欽ちゃん＆香取慎吾の全日本仮装大賞)](https://en.wikipedia.org/wiki/Kasou_Taishou), and magic videos from [YouTube]() and [TikTok]().
+
+In total, the FunQA benchmark consists of 312K free-text QA pairs derived from 4.3K video clips, spanning a total of 24 video hours.
+Extensive experiments with existing VideoQA models reveal significant performance gaps for the FunQA videos across spatial-temporal reasoning, visual-centered reasoning, and free-text generation.
 
 <video controls>
   <source src="[https://user-images.githubusercontent.com/91806420/248528017-8872edf5-c284-405c-aa3a-8f235fb2c03c.mp4](https://github.com/OpenGVLab/Ask-Anything/assets/24236723/a8667e87-49dd-4fc8-a620-3e408c058e26)" type="video/mp4">

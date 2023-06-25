@@ -77,7 +77,7 @@ git clone https://github.com/Jingkang50/FunQA
 
 ## Data Preparation
 
-Please download all the videos and annotation files from [here]().
+Please download all the videos and annotation files from [here](https://drive.google.com/drive/folders/1hUjV7z_RDnGwhux663yG8-QD7WyyMnEB?usp=sharing).
 
 For FunQA Dataset: there are four zip files:
 

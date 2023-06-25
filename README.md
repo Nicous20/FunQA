@@ -2,7 +2,8 @@
 
 
 
-[![paper](https://img.shields.io/badge/cs.CV-2305.06355-b31b1b?logo=arxiv&logoColor=red)](https://arxiv.org/abs/2306.05424)
+[![paper](https://img.shields.io/badge/cs.CV-xxxx.xxxxx-b31b1b?logo=arxiv&logoColor=red)](https://arxiv.org/abs/xxx.xxxxx)
+[![page](https://img.shields.io/badge/Project_Page-FunQA-orange)](https://arxiv.org/abs/xxx.xxxxx)
 [![Dataset](https://img.shields.io/badge/Dataset-Download-blue)](https://drive.google.com/drive/folders/1hUjV7z_RDnGwhux663yG8-QD7WyyMnEB?usp=sharing) 
 [![Youtube](https://badges.aleen42.com/src/youtube.svg)](https://www.bilibili.com/video/BV1Ch411N7bD/?share_source=copy_web&vd_source=dbe610f9a7910f3eae7ae2bf5aa6a8e2)
 [![Bilibili](https://img.shields.io/badge/Bilibili-Watch-pink)](https://www.bilibili.com/video/BV1Ch411N7bD/?share_source=copy_web&vd_source=dbe610f9a7910f3eae7ae2bf5aa6a8e2)
@@ -11,11 +12,8 @@
 [![CreativeQA_Demo](https://img.shields.io/badge/CreativeQA_Demo-Watch-blue)]()
 [![MagicQA_Demo](https://img.shields.io/badge/MagicQA_Demo-Watch-orange)]()
 
-Welcome to FunQA's open source Project Page, FunQA is a Video Question Answering benchmark that aims
-at enhancing video reasoning upon counter-intuitive videos, such as humorous
-videos, creative videos, and magic videos.
-
-This repository is still under maintenance, and we will update the full FunQA dataset and our model in the future.
+Welcome to FunQA's Codebase Repository! 
+FunQA is a VideoQA dataset to evaluate and enhance the model's video reasoning capability upon counter-intuitive videos, including humorous and funny viral videos from [TikTok](), creative performance from [Kasou Taishou (欽ちゃん＆香取慎吾の全日本仮装大賞)](https://en.wikipedia.org/wiki/Kasou_Taishou), and magic videos from [YouTube]() and [TikTok]().
 
 <video controls>
   <source src="[https://private-user-images.githubusercontent.com/91806420/247702306-949c3fe2-dd23-46bc-b214-21241f8c7619.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJrZXkxIiwiZXhwIjoxNjg3NjAyNTIyLCJuYmYiOjE2ODc2MDIyMjIsInBhdGgiOiIvOTE4MDY0MjAvMjQ3NzAyMzA2LTk0OWMzZmUyLWRkMjMtNDZiYy1iMjE0LTIxMjQxZjhjNzYxOS5tcDQ_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMwNjI0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMDYyNFQxMDIzNDJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1mODViNjdlOTAwMDJmMTNjODk4ZTliZjhhNDA2ZjhiOGRmZmE5MGJlZmE0NWY1NzZkMDVmMjMxZTg2MjQyNmFmJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.6NQHM1IFE90UMY8zhSffWn6WBn87imgh4ja6dcybGZs](https://private-user-images.githubusercontent.com/91806420/247702306-949c3fe2-dd23-46bc-b214-21241f8c7619.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJrZXkxIiwiZXhwIjoxNjg3NjAyNTIyLCJuYmYiOjE2ODc2MDIyMjIsInBhdGgiOiIvOTE4MDY0MjAvMjQ3NzAyMzA2LTk0OWMzZmUyLWRkMjMtNDZiYy1iMjE0LTIxMjQxZjhjNzYxOS5tcDQ_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMwNjI0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMDYyNFQxMDIzNDJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1mODViNjdlOTAwMDJmMTNjODk4ZTliZjhhNDA2ZjhiOGRmZmE5MGJlZmE0NWY1NzZkMDVmMjMxZTg2MjQyNmFmJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.6NQHM1IFE90UMY8zhSffWn6WBn87imgh4ja6dcybGZs)" type="video/mp4">
@@ -24,36 +22,34 @@ Your browser does not support the video tag.
 
 ## Todo
 
-1. [x] Release the FunQA dataset.
-1. [x] Post the paper: FunQA: Towards Surprising Video Comprehension
+1. [x] Release the FunQA dataset and arXiv paper.
 2. [ ] Release the FunQA Extended dataset.
-3. [ ] Release our full benchmark, comparison results with other LLMs and the new metrics for Free-text task.
+3. [ ] Release evaluation code.
 
 ## Table of Contents
 
-- [FunQA Benchmark](#funqa-benchmark)
-    * [FunQA Dataset Construction and Tasks](#funqa-dataset-construction-and-tasks)
-    * [FunQA Extension Dataset](#funqa-extension-dataset)
-    * [Dataset Examples](#dataset-examples)
-- [Data Preparation](#data-preparation)
-- [Acknowledgement](#acknowledgement)
-- [License](#license)
+- [1. FunQA Benchmark](#funqa-benchmark)
+    * [1.1 FunQA Dataset Construction and Tasks](#funqa-dataset-construction-and-tasks)
+    * [1.2 FunQA Extension Dataset](#funqa-extension-dataset)
+    * [1.3 Dataset Examples](#dataset-examples)
+- [2. Data Preparation](#data-preparation)
+- [3. Acknowledgement](#acknowledgement)
+- [4. License](#license)
 
-## FunQA Benchmark
-
-![img.png](img/main.png)
-
+## 1. FunQA Benchmark
 - FunQA is a pioneering **VideoQA benchmark** specially curated to hone video reasoning capabilities in the
   counter-intuitive context of **humorous**, **creative**, and **magic** videos.
 - We create FunQA with the principle of **spatial-temporal**, **visual-centric reasoning**, and **Free-text generation**. Rigorous
   tasks including **positioning**, **describing**, and **reasoning** the counter-intuitive clips are set up.
 - FunQA dataset has a total of 4.3k videos, 23.9 hours, and a total of 312k QA pairs with high quality.
 
-### Dataset Construction and Tasks
+### 1.2 Dataset Construction and Tasks
 
 ### Dataset Statics
 FunQA contains **4,365** counter-intuitive video clips and **311,950** question-answer pairs, the total
 length of these videos is **23.9** hours and the average length of video clips is **19** seconds.
+![img.png](img/main.png)
+
 ### Extension Dataset
 
 #### FunQA Multi-choice Dataset

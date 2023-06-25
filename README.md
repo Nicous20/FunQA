@@ -43,21 +43,12 @@ Your browser does not support the video tag.
 - [3. Acknowledgement](#acknowledgement)
 - [4. License](#license)
 
-## 1. FunQA Benchmark
-- FunQA is a pioneering **VideoQA benchmark** specially curated to hone video reasoning capabilities in the
-  counter-intuitive context of **humorous**, **creative**, and **magic** videos.
-- We create FunQA with the principle of **spatial-temporal**, **visual-centric reasoning**, and **Free-text generation**. Rigorous
-  tasks including **positioning**, **describing**, and **reasoning** the counter-intuitive clips are set up.
-- FunQA dataset has a total of 4.3k videos, 23.9 hours, and a total of 312k QA pairs with high quality.
+## 1 - FunQA Benchmark
 
-### 1.2 Dataset Construction and Tasks
-
-### Dataset Statics
-FunQA contains **4,365** counter-intuitive video clips and **311,950** question-answer pairs, the total
-length of these videos is **23.9** hours and the average length of video clips is **19** seconds.
+### 1.1 - FunQA Main Tasks
 ![img.png](img/main.png)
 
-### Extension Dataset
+### 1.2 - FunQA Extended Tasks
 
 #### FunQA Multi-choice Dataset
 
@@ -66,19 +57,8 @@ length of these videos is **23.9** hours and the average length of video clips i
 #### FunQA Dialog Dataset
 ![img_1.png](img/FunQA_dia.png)
 
-### Dataset Examples
 
-## Install
-
-You can create an anaconda environment for this project
-
-```angular2html
-conda create -n funqa python==3.8
-conda activate videofunqa
-git clone https://github.com/Jingkang50/FunQA
-```
-
-## Data Preparation
+## 2 - Data Preparation
 
 Please download all the videos and annotation files from [here](https://drive.google.com/drive/folders/1hUjV7z_RDnGwhux663yG8-QD7WyyMnEB?usp=sharing).
 

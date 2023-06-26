@@ -9,12 +9,7 @@
 [![Bilibili](https://img.shields.io/badge/Bilibili-Watch-pink)](https://www.bilibili.com/video/BV1Ch411N7bD/?share_source=copy_web&vd_source=dbe610f9a7910f3eae7ae2bf5aa6a8e2)
 </br>
 
-
-https://github.com/Jingkang50/FunQA/assets/91806420/415c72de-d4a2-426b-b4e8-6dbbb966444b
-
-
-
-
+https://github.com/Jingkang50/FunQA/assets/91806420/8cd1c7b7-63ea-4b2f-991e-72054f94d212
 
 
 Welcome to FunQA's Codebase Repository!

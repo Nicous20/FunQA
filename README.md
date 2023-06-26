@@ -8,11 +8,16 @@
 [![Bilibili](https://img.shields.io/badge/Bilibili-Watch-pink)](https://www.bilibili.com/video/BV1Ch411N7bD/?share_source=copy_web&vd_source=dbe610f9a7910f3eae7ae2bf5aa6a8e2)
 </br>
 
+
 https://github.com/Jingkang50/FunQA/assets/91806420/8cd1c7b7-63ea-4b2f-991e-72054f94d212
 
+<video controls>
+  <source src="[https://github.com/Jingkang50/FunQA/assets/91806420/8cd1c7b7-63ea-4b2f-991e-72054f94d212](https://github.com/Jingkang50/FunQA/assets/91806420/8cd1c7b7-63ea-4b2f-991e-72054f94d212)" type="video/mp4">
+Your browser does not support the video tag.
+</video>
 
 Welcome to FunQA's Codebase Repository!
-The motivation for the FunQA is straightforward: Humans enjoy surprising videos, including funny clips, creative performances, or visual illusions. We hope to test or emdow the similar power for AI models.
+The motivation for the FunQA is straightforward: Humans enjoy surprising videos, including funny clips, creative performances, or visual illusions. We aim to evaluate and empower AI models with similar capabilities.
 
 FunQA is a VideoQA dataset to evaluate and enhance the model's video reasoning capability upon counter-intuitive videos, including humorous and funny viral videos from [TikTok](https://www.tiktok.com/@funnyvideosvf?is_from_webapp=1&sender_device=pc), creative performance from [Kasou Taishou (欽ちゃん＆香取慎吾の全日本仮装大賞)](https://en.wikipedia.org/wiki/Kasou_Taishou), and magic videos from [YouTube](https://www.youtube.com/playlist?list=PLnlST2lBA34vHH_8rNvTFYvJ7e5IT0pHm) and [TikTok](https://www.tiktok.com/@magicsingh?is_from_webapp=1&sender_device=pc).
 

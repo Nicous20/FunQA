@@ -3,29 +3,29 @@
 
 
 [![paper](https://img.shields.io/badge/cs.CV-xxxx.xxxxx-b31b1b?logo=arxiv&logoColor=red)](https://arxiv.org/abs/xxx.xxxxx)
-[![page](https://img.shields.io/badge/Project_Page-FunQA-orange)](https://arxiv.org/abs/xxx.xxxxx)
+[![page](https://img.shields.io/badge/Project_Page-FunQA-orange)](https://funqa-benchmark.github.io/)
 [![Dataset](https://img.shields.io/badge/Dataset-Download-blue)](https://drive.google.com/drive/folders/1hUjV7z_RDnGwhux663yG8-QD7WyyMnEB?usp=sharing) 
 [![Youtube](https://badges.aleen42.com/src/youtube.svg)](https://youtu.be/69Mvz_k7_Z4)
 [![Bilibili](https://img.shields.io/badge/Bilibili-Watch-pink)](https://www.bilibili.com/video/BV1Ch411N7bD/?share_source=copy_web&vd_source=dbe610f9a7910f3eae7ae2bf5aa6a8e2)
 </br>
-[![HumorQA_Demo](https://img.shields.io/badge/HumorQA_Demo-Watch-green)]()
-[![CreativeQA_Demo](https://img.shields.io/badge/CreativeQA_Demo-Watch-blue)]()
-[![MagicQA_Demo](https://img.shields.io/badge/MagicQA_Demo-Watch-orange)]()
+
+
+https://github.com/Jingkang50/FunQA/assets/91806420/415c72de-d4a2-426b-b4e8-6dbbb966444b
+
+
+
+
+
 
 Welcome to FunQA's Codebase Repository!
 The motivation for the FunQA is straightforward: Humans enjoy surprising videos, including funny clips, creative performances, or visual illusions. We hope to test or emdow the similar power for AI models.
 
-FunQA is a VideoQA dataset to evaluate and enhance the model's video reasoning capability upon counter-intuitive videos, including humorous and funny viral videos from [TikTok](), creative performance from [Kasou Taishou (欽ちゃん＆香取慎吾の全日本仮装大賞)](https://en.wikipedia.org/wiki/Kasou_Taishou), and magic videos from [YouTube]() and [TikTok]().
+FunQA is a VideoQA dataset to evaluate and enhance the model's video reasoning capability upon counter-intuitive videos, including humorous and funny viral videos from [TikTok](https://www.tiktok.com/@funnyvideosvf?is_from_webapp=1&sender_device=pc), creative performance from [Kasou Taishou (欽ちゃん＆香取慎吾の全日本仮装大賞)](https://en.wikipedia.org/wiki/Kasou_Taishou), and magic videos from [YouTube](https://www.youtube.com/playlist?list=PLnlST2lBA34vHH_8rNvTFYvJ7e5IT0pHm) and [TikTok](https://www.tiktok.com/@magicsingh?is_from_webapp=1&sender_device=pc).
 
 We establish rigorous QA tasks designed to assess the model's capability in counter-intuitive timestamp localization, detailed video description, and reasoning around counter-intuitiveness. We also pose higher-level tasks, such as attributing a fitting and vivid title to the video, and scoring the video creativity.
 
 In total, the FunQA benchmark consists of 312K free-text QA pairs derived from 4.3K video clips, spanning a total of 24 video hours.
 Extensive experiments with existing VideoQA models reveal significant performance gaps for the FunQA videos across spatial-temporal reasoning, visual-centered reasoning, and free-text generation.
-
-<video controls>
-  <source src="[https://user-images.githubusercontent.com/91806420/248528017-8872edf5-c284-405c-aa3a-8f235fb2c03c.mp4](https://github.com/OpenGVLab/Ask-Anything/assets/24236723/a8667e87-49dd-4fc8-a620-3e408c058e26)" type="video/mp4">
-Your browser does not support the video tag.
-</video>
 
 ## Todo
 
@@ -46,15 +46,18 @@ Your browser does not support the video tag.
 ## 1 - FunQA Benchmark
 
 ### 1.1 - FunQA Main Tasks
+FunQA comprises three subsets of surprising videos: 1) HumorQA, 2) CreativeQA, and 3) MagicQA. Each subset is associated with three common tasks: 1) counter-intuitive timestamp localization, 2) detailed video description, and 3) reasoning around counter-intuitiveness (see H1-3, C1-3, and M1-3). Furthermore, we offer higher-level tasks tailored for each video type, such as attributing a fitting and vivid title for HumorQA and CreativeQA (see H4, C4), etc.
 ![img.png](img/main.png)
 
 ### 1.2 - FunQA Extended Tasks
 
 #### FunQA Multi-choice Dataset
+FunQA Multi-choice Dataset is prepared to provide training and testing for arbitrary models, in this dataset our QA pairs are in the form of multiple choice, the answer is a word, phrase, or short sentence, and the type of questions are all descriptions.
 
 ![FunQA_MC.png](img/FunQA_MC.png)
 
 #### FunQA Dialog Dataset
+Most of the current LLMs are in the form of dialogues. To cater to their data input, we produced the FunQA Dialog dataset, in which we used GPT-3.5 to convert QA pairs into recursive dialogues with added context.
 ![img_1.png](img/FunQA_dia.png)
 
 
@@ -66,8 +69,8 @@ For FunQA Dataset: there are four zip files:
 
 - `funqa_train.zip`, `funqa_val.zip`, `funqa_test.zip`: Videos for training, validation and test.
 - `funqa_base_annotation.zip`: Annotation files for FunQA Base Dataset.
-  After downloading, please unzip `funqa_train.zip`, `funqa_val.zip` and `funqa_test.zip` to a folder called
-  `funqa_base\videos` and unzip `funqa_base_annotation.zip` to a folder called `funqa_base\annotation`.
+-  After downloading, please unzip `funqa_train.zip`, `funqa_val.zip` and `funqa_test.zip` to a folder called
+  `funqa_base/videos` and unzip `funqa_base_annotation.zip` to a folder called `funqa_base/annotation`.
 
 For FunQA Extension Dataset: Coming soon.
 

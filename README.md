@@ -1,7 +1,7 @@
 # [FunQA: Towards Surprising Video Comprehension](https://funqa-benchmark.github.io/)
 
 
-[![paper](https://img.shields.io/badge/cs.CV-xxxx.xxxxx-b31b1b?logo=arxiv&logoColor=red)](https://arxiv.org/abs/xxx.xxxxx)
+[![paper](https://img.shields.io/badge/cs.CV-2306.14899-b31b1b?logo=arxiv&logoColor=red)](https://arxiv.org/abs/2306.14899)
 [![page](https://img.shields.io/badge/Project_Page-FunQA-orange)](https://funqa-benchmark.github.io/)
 [![Dataset](https://img.shields.io/badge/Dataset-Download-blue)](https://drive.google.com/drive/folders/1hUjV7z_RDnGwhux663yG8-QD7WyyMnEB?usp=sharing) 
 [![Youtube](https://badges.aleen42.com/src/youtube.svg)](https://youtu.be/Uh6A4h-Nm78)

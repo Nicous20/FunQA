@@ -27,11 +27,15 @@ We establish rigorous QA tasks designed to assess the model's capability in coun
 In total, the FunQA benchmark consists of 312K free-text QA pairs derived from 4.3K video clips, spanning a total of 24 video hours.
 Extensive experiments with existing VideoQA models reveal significant performance gaps for the FunQA videos across spatial-temporal reasoning, visual-centered reasoning, and free-text generation.
 
+## Updates
+- **16 June, 2023**: :boom::boom: The [FunQA challenge](https://iacc.pazhoulab-huangpu.com/contestdetail?id=64af50154a0ed647faca623a&award=1,000,000) with $1M prize starts! At the same time, we released the evaluation code.
+
+  
 ## Todo
 
 1. [x] Release the FunQA dataset and arXiv paper.
-2. [ ] Release the FunQA Extended dataset.
-3. [ ] Release evaluation code.
+2. [x] Release evaluation code.
+3. [ ] Release the FunQA Extended dataset.
 
 ## Table of Contents
 
@@ -72,6 +76,9 @@ For FunQA Dataset: there are four zip files:
   `funqa_base/videos` and unzip `funqa_base_annotation.zip` to a folder called `funqa_base/annotation`.
 
 For FunQA Extension Dataset: Coming soon.
+
+## 3 - Evaluation
+TBD. 
 
 ## Acknowledgement
 

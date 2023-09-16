@@ -1,0 +1,6 @@
+nltk
+pandas
+openai
+pycocoevalcap
+rouge
+tqdm

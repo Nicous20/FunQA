@@ -1,0 +1,142 @@
+[
+  {
+    "instruction": "Provide a detailed account of the video's funny moment.",
+    "visual_input": "H_A_101_1433_1631.mp4",
+    "output": "A tuxedo-colored cat is squeezed into a glass, vigorously shaking its head.",
+    "task": "H2",
+    "ID": "test_0"
+  },
+  {
+    "instruction": "What makes the entire video funny?",
+    "visual_input": "H_A_101_1433_1631.mp4",
+    "output": "The feline is making a great effort to dip its head inside the cup to sip water. Afterward, the cat starts to wildly shake its head as it can't take it out, creating a comical comparison between its initial attempt and its later awkwardness.",
+    "task": "H3",
+    "ID": "test_1"
+  },
+  {
+    "instruction": "Give a suitable description for the video.",
+    "visual_input": "H_A_101_1433_1631.mp4",
+    "output": "According to the cat, the water inside a human's cup is the most preferable to quench its thirst.",
+    "task": "H4",
+    "ID": "test_2"
+  },
+  {
+    "instruction": "Provide a detailed account of the video's funny moment.",
+    "visual_input": "H_A_112_0000_0432.mp4",
+    "output": "On the sandy shore, there is a small child accompanied by two dogs. The child uses their foot to kick one of the dogs, and in response, the dog stands up and counterattacks by digging sand towards the child.",
+    "task": "H2",
+    "ID": "test_3"
+  },
+  {
+    "instruction": "Why is the video as a whole comedic?",
+    "visual_input": "H_A_112_0000_0432.mp4",
+    "output": "In the beginning, the dog was patient with the child, but then it reached its limit, got up, shook the sand off, and used a dog's digging technique to drive the child away, which was quite comical.",
+    "task": "H3",
+    "ID": "test_4"
+  },
+  {
+    "instruction": "Give a suitable description for the video.",
+    "visual_input": "H_A_112_0000_0432.mp4",
+    "output": "Bearable for humans, unbearable for canines.",
+    "task": "H4",
+    "ID": "test_5"
+  },
+  {
+    "instruction": "Describe the laughter-provoking part of the video.",
+    "visual_input": "H_A_112_0436_0691.mp4",
+    "output": "Using its paw, the dog pushed the door and unintentionally knocked the child over. Afterward, the dog stole a glance at the child before entering the room.",
+    "task": "H2",
+    "ID": "test_6"
+  },
+  {
+    "instruction": "What factors create the humor throughout the video?",
+    "visual_input": "H_A_112_0436_0691.mp4",
+    "output": "Initially, the dog had intended to slip into the room silently, but the child caught it and shut the door, leaving the dog outside. Without delay, the dog forcefully shoved the door and pushed the child aside, sauntering into the room in a comical fashion.",
+    "task": "H3",
+    "ID": "test_7"
+  },
+  {
+    "instruction": "Suggest a caption that captures the humor in the video.",
+    "visual_input": "H_A_112_0436_0691.mp4",
+    "output": "Enter by giving the door a push.",
+    "task": "H4",
+    "ID": "test_8"
+  },
+  {
+    "instruction": "Give a narration of the humorous segment in the video.",
+    "visual_input": "H_A_125_2078_2286.mp4",
+    "output": "A parrot is using its claw to hold a small stick and scratch its head.",
+    "task": "H2",
+    "ID": "test_9"
+  },
+  {
+    "instruction": "Provide a detailed account of the video's funny moment.",
+    "visual_input": "H_A_101_1433_1631.mp4",
+    "output": "A tuxedo-colored cat is squeezed into a glass, vigorously shaking its head.",
+    "task": "C2",
+    "ID": "test_10"
+  },
+  {
+    "instruction": "What makes the entire video funny?",
+    "visual_input": "H_A_101_1433_1631.mp4",
+    "output": "The feline is making a great effort to dip its head inside the cup to sip water. Afterward, the cat starts to wildly shake its head as it can't take it out, creating a comical comparison between its initial attempt and its later awkwardness.",
+    "task": "C3",
+    "ID": "test_11"
+  },
+  {
+    "instruction": "Give a suitable description for the video.",
+    "visual_input": "H_A_101_1433_1631.mp4",
+    "output": "According to the cat, the water inside a human's cup is the most preferable to quench its thirst.",
+    "task": "C4",
+    "ID": "test_12"
+  },
+  {
+    "instruction": "Provide a detailed account of the video's funny moment.",
+    "visual_input": "H_A_112_0000_0432.mp4",
+    "output": "On the sandy shore, there is a small child accompanied by two dogs. The child uses their foot to kick one of the dogs, and in response, the dog stands up and counterattacks by digging sand towards the child.",
+    "task": "C2",
+    "ID": "test_13"
+  },
+  {
+    "instruction": "Why is the video as a whole comedic?",
+    "visual_input": "H_A_112_0000_0432.mp4",
+    "output": "In the beginning, the dog was patient with the child, but then it reached its limit, got up, shook the sand off, and used a dog's digging technique to drive the child away, which was quite comical.",
+    "task": "C3",
+    "ID": "test_14"
+  },
+  {
+    "instruction": "Give a suitable description for the video.",
+    "visual_input": "H_A_112_0000_0432.mp4",
+    "output": "Bearable for humans, unbearable for canines.",
+    "task": "C4",
+    "ID": "test_15"
+  },
+  {
+    "instruction": "Describe the laughter-provoking part of the video.",
+    "visual_input": "H_A_112_0436_0691.mp4",
+    "output": "Using its paw, the dog pushed the door and unintentionally knocked the child over. Afterward, the dog stole a glance at the child before entering the room.",
+    "task": "M2",
+    "ID": "test_16"
+  },
+  {
+    "instruction": "What factors create the humor throughout the video?",
+    "visual_input": "H_A_112_0436_0691.mp4",
+    "output": "Initially, the dog had intended to slip into the room silently, but the child caught it and shut the door, leaving the dog outside. Without delay, the dog forcefully shoved the door and pushed the child aside, sauntering into the room in a comical fashion.",
+    "task": "M3",
+    "ID": "test_17"
+  },
+  {
+    "instruction": "Suggest a caption that captures the humor in the video.",
+    "visual_input": "H_A_112_0436_0691.mp4",
+    "output": "Enter by giving the door a push.",
+    "task": "M2",
+    "ID": "test_18"
+  },
+  {
+    "instruction": "Give a narration of the humorous segment in the video.",
+    "visual_input": "H_A_125_2078_2286.mp4",
+    "output": "A parrot is using its claw to hold a small stick and scratch its head.",
+    "task": "M3",
+    "ID": "test_19"
+  }
+]

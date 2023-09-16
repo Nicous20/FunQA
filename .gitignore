@@ -25,6 +25,11 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+depreciated/
+scripts/run_private_*
+bleurt/
+BLEURT-20/
+data/0000/
 
 # PyInstaller
 #  Usually these files are written by a python script from a template

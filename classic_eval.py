@@ -16,7 +16,7 @@ import sys
 
 
 def calculate_bleu4(reference, hypothesis):
-    # 将字符串分词为列表
+
     ref_tokens = reference.split()
     hyp_tokens = hypothesis.split()
     blue4_score = sentence_bleu([ref_tokens],
@@ -40,17 +40,11 @@ def compute_cider_score(reference, candidate):
         gts[idx] = [reference[idx]]
         res[idx] = [candidate[idx]]
 
-    # 初始化CIDEr评估器
     cider_scorer = Cider()
 
-    # 计算CIDEr分数
     cider_score, _ = cider_scorer.compute_score(gts, res)
     return cider_score
-
-
-def eval(submission_file, answer_file, total_score_path, run_time):
-    print('Validating...')
-    col = ['Task', 'H2', 'H3', 'H4', 'C2', 'C3', 'C4', 'M2', 'M3']
+def chk_file(submission_file, answer_file):
     with open(submission_file) as f:
         submission = json.load(f)
     with open(answer_file) as f:
@@ -60,27 +54,56 @@ def eval(submission_file, answer_file, total_score_path, run_time):
     for data in answer:
         chk_answer.append({
             'task': data['task'],
-            'output': data['output'],
-            'instruction': data['instruction'],
+            'visual_input': data['visual_input'],
             'ID': data['ID']
         })
 
     diff = False
     for data in submission:
         if {
-                'task': data['task'],
-                'output': data['output'],
-                'instruction': data['instruction'],
-                'ID': data['ID']
+            'task': data['task'],
+            'visual_input': data['visual_input'],
+            'ID': data['ID']
         } not in chk_answer:
+            print(data)
             diff = True
             break
 
-    assert diff == False, 'Submission file is not valid'
+    assert not diff, 'Submission file is not valid'
     print('File is valid! Loading File...')
 
     submission = sorted(submission, key=lambda x: x['ID'])
     answer = sorted(answer, key=lambda x: x['ID'])
+
+
+    submission = sorted(submission, key=lambda x: x['ID'])
+    answer = sorted(answer, key=lambda x: x['ID'])
+
+    duplicate_id_output = set()
+
+
+    for sub_data in submission:
+        for ans_data in answer:
+            if sub_data['ID'] == ans_data['ID'] and sub_data['output'] == ans_data['output']:
+                duplicate_id_output.add((sub_data['ID'], sub_data['output']))
+
+
+    filtered_submission = [data for data in submission if (data['ID'], data['output']) not in duplicate_id_output]
+    filtered_answer = [data for data in answer if (data['ID'], data['output']) not in duplicate_id_output]
+
+   
+    submission = filtered_submission
+    answer = filtered_answer
+    submission = sorted(submission, key=lambda x: x['ID'])
+    answer = sorted(answer, key=lambda x: x['ID'])
+    print('submission: ',len(submission),'answer: ',len(answer))
+    return submission,answer
+
+def eval(submission_file, answer_file, total_score_path, run_time):
+    print('Validating...')
+    col = ['Task', 'H2', 'H3', 'H4', 'C2', 'C3', 'C4', 'M2', 'M3']
+    chk_file(submission_file, answer_file)
+
 
     can_path = 'bleurt/test_data/candidates'
     ref_path = 'bleurt/test_data/references'
@@ -93,8 +116,8 @@ def eval(submission_file, answer_file, total_score_path, run_time):
     eval_csv = pd.DataFrame(
         columns=['pre_output', 'gt', 'Task', 'bleurt_score'])
     for i in tqdm(range(len(submission))):
-        pre_output = submission[i]['output']
-        gt = answer[i]['output']
+        pre_output = submission[i]['output'].replace('\n', ' ')
+        gt = answer[i]['output'].replace('\n', ' ')
 
         with open(can_path, 'a') as f_can:
             f_can.write(pre_output + '\n')
@@ -215,17 +238,12 @@ def eval(submission_file, answer_file, total_score_path, run_time):
 
 
 if __name__ == '__main__':
-    sub_file = sys.argv[1]
-    ref_path = sys.argv[2]
-    save_path = sys.argv[3]
-    date = sys.argv[4]
-    team_id = os.path.basename(sub_file).split('.json')[0]
-    grade_path = os.path.join(save_path, team_id)
-    if not os.path.exists(grade_path):
-        os.makedirs(grade_path)
+    sub_file = ''
+    ref_path = ''
+    save_path = ''
 
-    score_file_path = os.path.join(grade_path,
-                                   team_id + '_classic_score_' + date + '.csv')
+
+    score_file_path = os.path.join(save_path,'funqa_classic_score.csv')
     print('score_file_path: ', score_file_path)
 
     eval(sub_file, ref_path, score_file_path, 60)

@@ -72,14 +72,12 @@ Most of the current LLMs are in the form of dialogues. To cater to their data in
 
 ## 2 - Data Preparation
 
-Please download all the videos and annotation files from [here](https://drive.google.com/drive/folders/1hUjV7z_RDnGwhux663yG8-QD7WyyMnEB?usp=sharing).
+Please download all the videos and annotation files from [here](https://entuedu-my.sharepoint.com/personal/jingkang001_e_ntu_edu_sg/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fjingkang001%5Fe%5Fntu%5Fedu%5Fsg%2FDocuments%2FFunQA&ga=1).
 
 For FunQA Dataset: there are four zip files:
 
-- `funqa_train.zip`, `funqa_val.zip`, `funqa_test.zip`: Videos for training, validation and test.
-- `funqa_base_annotation.zip`: Annotation files for FunQA Base Dataset.
--  After downloading, please unzip `funqa_train.zip`, `funqa_val.zip` and `funqa_test.zip` to a folder called
-  `funqa_base/videos` and unzip `funqa_base_annotation.zip` to a folder called `funqa_base/annotation`.
+- `train.zip`, `val.zip`, `test.zip`: Videos for training, validation and test.
+- `annotation_with_id.zip`: Annotation files for FunQA Base Dataset.
 
 For FunQA Extension Dataset: Coming soon.
 

@@ -3,10 +3,11 @@
 
 [![paper](https://img.shields.io/badge/cs.CV-2306.14899-b31b1b?logo=arxiv&logoColor=red)](https://arxiv.org/abs/2306.14899)
 [![page](https://img.shields.io/badge/Project_Page-FunQA-orange)](https://funqa-benchmark.github.io/)
-[![Dataset](https://img.shields.io/badge/Dataset-Download-blue)](https://drive.google.com/drive/folders/1hUjV7z_RDnGwhux663yG8-QD7WyyMnEB?usp=sharing)
+[![Dataset](https://img.shields.io/badge/Dataset-Download-blue)](https://entuedu-my.sharepoint.com/:f:/g/personal/jingkang001_e_ntu_edu_sg/EmBja9v8w4NAgqVmLC_xZ2QBKD1a2vjzxpW-QZisk1sc-g?e=n2yDek)
 [![Youtube](https://badges.aleen42.com/src/youtube.svg)](https://youtu.be/Uh6A4h-Nm78)
 [![Bilibili](https://img.shields.io/badge/Bilibili-Watch-pink)](https://www.bilibili.com/video/BV1Ch411N7bD/?share_source=copy_web&vd_source=dbe610f9a7910f3eae7ae2bf5aa6a8e2)
 </br>
+
 
 
 

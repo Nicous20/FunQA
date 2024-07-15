@@ -3,7 +3,7 @@
 
 [![paper](https://img.shields.io/badge/cs.CV-2306.14899-b31b1b?logo=arxiv&logoColor=red)](https://arxiv.org/abs/2306.14899)
 [![page](https://img.shields.io/badge/Project_Page-FunQA-orange)](https://funqa-benchmark.github.io/)
-[![Dataset](https://img.shields.io/badge/Dataset-Download-blue)](https://entuedu-my.sharepoint.com/:f:/g/personal/jingkang001_e_ntu_edu_sg/EmBja9v8w4NAgqVmLC_xZ2QBKD1a2vjzxpW-QZisk1sc-g?e=n2yDek)
+[![Dataset](https://img.shields.io/badge/Dataset-Download-blue)](https://huggingface.co/datasets/fesvhtr/FunQA)
 [![Youtube](https://badges.aleen42.com/src/youtube.svg)](https://youtu.be/Uh6A4h-Nm78)
 [![Bilibili](https://img.shields.io/badge/Bilibili-Watch-pink)](https://www.bilibili.com/video/BV1Ch411N7bD/?share_source=copy_web&vd_source=dbe610f9a7910f3eae7ae2bf5aa6a8e2)
 </br>
@@ -73,14 +73,15 @@ Most of the current LLMs are in the form of dialogues. To cater to their data in
 
 ## 2 - Data Preparation
 
-Please download all the videos and annotation files from [here](https://entuedu-my.sharepoint.com/personal/jingkang001_e_ntu_edu_sg/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fjingkang001%5Fe%5Fntu%5Fedu%5Fsg%2FDocuments%2FFunQA&ga=1).
+Please download all the videos and annotation files from [here](https://huggingface.co/datasets/fesvhtr/FunQA).
 
 For FunQA Dataset: there are four zip files:
 
 - `train.zip`, `val.zip`, `test.zip`: Videos for training, validation and test.
-- `annotation_with_id.zip`: Annotation files for FunQA Base Dataset.
+- `FunQA_train.json`, `FunQA_val.json`, `FunQA_test.json`: Annotation files for FunQA Base Dataset.
 
-For FunQA Extension Dataset: Coming soon.
+For FunQA Multi-choice Dataset:  
+- `Funqa_mcqa_v1.json`: Annotation files for FunQA-MC Dataset.
 
 ## 3 - Evaluation
 ```

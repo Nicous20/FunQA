@@ -113,12 +113,14 @@ well as cash and in-kind contribution from the industry partner(s).
 
 If you're using FunQA in your research or applications, please cite using this BibTeX:
 ```bibtex
-    @article{xie2023funqa,
-      title={FunQA: Towards Surprising Video Comprehension},
-      author={Xie, Binzhu and Zhang, Sicheng and Zhou, Zitang and Li, Bo and Zhang, Yuanhan and Hessel, Jack and Yang, Jingkang and Liu, Ziwei},
-      journal={GitHub repository},
-      year={2023},
-      howpublished = {\url{https://github.com/Jingkang50/FunQA}}
+  @misc{xie2024funqasurprisingvideocomprehension,
+        title={FunQA: Towards Surprising Video Comprehension}, 
+        author={Binzhu Xie and Sicheng Zhang and Zitang Zhou and Bo Li and Yuanhan Zhang and Jack Hessel and Jingkang Yang and Ziwei Liu},
+        year={2024},
+        eprint={2306.14899},
+        archivePrefix={arXiv},
+        primaryClass={cs.CV},
+        url={https://arxiv.org/abs/2306.14899}, 
   }
 ```
 

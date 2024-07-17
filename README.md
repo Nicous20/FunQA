@@ -1,4 +1,4 @@
-# [FunQA: Towards Surprising Video Comprehension](https://funqa-benchmark.github.io/)
+# [FunQA: Towards Surprising Video Comprehension (ECCV 2024)](https://funqa-benchmark.github.io/)
 
 
 [![paper](https://img.shields.io/badge/cs.CV-2306.14899-b31b1b?logo=arxiv&logoColor=red)](https://arxiv.org/abs/2306.14899)

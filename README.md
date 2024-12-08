@@ -113,15 +113,14 @@ well as cash and in-kind contribution from the industry partner(s).
 
 If you're using FunQA in your research or applications, please cite using this BibTeX:
 ```bibtex
-  @misc{xie2024funqasurprisingvideocomprehension,
-        title={FunQA: Towards Surprising Video Comprehension}, 
-        author={Binzhu Xie and Sicheng Zhang and Zitang Zhou and Bo Li and Yuanhan Zhang and Jack Hessel and Jingkang Yang and Ziwei Liu},
+  @inproceedings{xie2024funqa,
+    author={Binzhu Xie and Sicheng Zhang and Zitang Zhou and Bo Li and Yuanhan Zhang and Jack Hessel and Jingkang Yang and Ziwei Liu},
         year={2024},
-        eprint={2306.14899},
-        archivePrefix={arXiv},
-        primaryClass={cs.CV},
-        url={https://arxiv.org/abs/2306.14899}, 
-  }
+    title={FunQA: Towards Surprising Video Comprehension},
+    booktitle = {European Conference on Computer Vision (ECCV)},
+    year = {2024},
+    url={https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/00010.pdf}, 
+}
 ```
 
 ## License

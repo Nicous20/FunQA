@@ -10,7 +10,6 @@
 
 
 
-
 https://github.com/Jingkang50/FunQA/assets/17070708/2a03eb8b-dd2a-4eaf-b2a4-fcd36c56b54a
 
 <video controls>
@@ -36,7 +35,6 @@ Extensive experiments with existing VideoQA models reveal significant performanc
 
 ## Updates
 - **16 June, 2023**: :boom::boom: The [FunQA challenge](https://iacc.pazhoulab-huangpu.com/contestdetail?id=64af50154a0ed647faca623a&award=1,000,000) with $1M prize starts! At the same time, we released the evaluation code.
-
 
 ## Todo
 
